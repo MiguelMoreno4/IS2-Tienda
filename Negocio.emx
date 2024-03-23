@@ -361,7 +361,7 @@
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_bCBrat-REe6GD5xT6vY1jw" visible="false" type="SignalCompartment"/>
           <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_bCBra9-REe6GD5xT6vY1jw" visible="false" type="StructureCompartment"/>
           <element xmi:type="uml:Class" href="Integracion.emx#_CT2CYN85Ee6GD5xT6vY1jw?Integracion/ProveedorIntegracion/TProveedor?"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bCBrbN-REe6GD5xT6vY1jw" x="2112" y="7128" width="3065" height="7376"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bCBrbN-REe6GD5xT6vY1jw" x="2112" y="7128" width="3382" height="7376"/>
         </children>
         <children xmi:type="umlnotation:UMLShape" xmi:id="_kxyf0N-SEe6GD5xT6vY1jw" element="_kxvcgN-SEe6GD5xT6vY1jw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
           <children xmi:type="notation:DecorationNode" xmi:id="_kxzt8N-SEe6GD5xT6vY1jw" type="ImageCompartment">
