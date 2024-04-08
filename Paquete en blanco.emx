@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--xtools2_universal_type_manager-->
-<!--Rational Software Architect Designer 9.6-->
-<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<!--Rational Software Architect Designer 9.6.1-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
 <uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_DQIlQNF0Ee61VoHcxFdYVw" name="Interfaz">
   <eAnnotations xmi:id="_DQIlQdF0Ee61VoHcxFdYVw" source="uml2.diagrams"/>
@@ -5701,6 +5701,63 @@
     <packagedElement xmi:type="uml:Dependency" xmi:id="_243jcOVEEe6NEZDaoaxPgw" supplier="_92q4gOVDEe6NEZDaoaxPgw" client="_6o7xMOVDEe6NEZDaoaxPgw"/>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_k5FXcObhEe6COp8z9ZALJQ" supplier="_QZ6tEOVLEe6NEZDaoaxPgw" client="_6o7xMOVDEe6NEZDaoaxPgw"/>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_mh8LoObhEe6COp8z9ZALJQ" supplier="_5sJRcOVGEe6NEZDaoaxPgw" client="_6o7xMOVDEe6NEZDaoaxPgw"/>
+    <packagedElement xmi:type="uml:Collaboration" xmi:id="_x8Rt4PW8Ee6PbIfp9_7P2w" name="ActionListnerProducto">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_x8X0gPW8Ee6PbIfp9_7P2w" name="AltaProducto">
+        <eAnnotations xmi:id="_x8hlgPW8Ee6PbIfp9_7P2w" source="uml2.diagrams">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_x8hlgfW8Ee6PbIfp9_7P2w" type="Sequence" element="_x8X0gPW8Ee6PbIfp9_7P2w" name="AltaProducto" measurementUnit="Himetric">
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_x8hlgvW8Ee6PbIfp9_7P2w" element="_x8X0gPW8Ee6PbIfp9_7P2w" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_x8hlg_W8Ee6PbIfp9_7P2w" type="interaction_compartment"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_x8hlhPW8Ee6PbIfp9_7P2w" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x8hlhfW8Ee6PbIfp9_7P2w" x="793" y="793"/>
+            </children>
+          </contents>
+        </eAnnotations>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_6SGJUPW8Ee6PbIfp9_7P2w" name="BajaProducto">
+        <eAnnotations xmi:id="_6SGJUfW8Ee6PbIfp9_7P2w" source="uml2.diagrams">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_6SGJUvW8Ee6PbIfp9_7P2w" type="Sequence" element="_6SGJUPW8Ee6PbIfp9_7P2w" name="BajaProducto" measurementUnit="Himetric">
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_6SGJU_W8Ee6PbIfp9_7P2w" element="_6SGJUPW8Ee6PbIfp9_7P2w" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_6SGJVPW8Ee6PbIfp9_7P2w" type="interaction_compartment"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_6SGJVfW8Ee6PbIfp9_7P2w" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6SGJVvW8Ee6PbIfp9_7P2w" x="793" y="793"/>
+            </children>
+          </contents>
+        </eAnnotations>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_9bHIsPW8Ee6PbIfp9_7P2w" name="UpdateProducto">
+        <eAnnotations xmi:id="_9bHIsfW8Ee6PbIfp9_7P2w" source="uml2.diagrams">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_9bHIsvW8Ee6PbIfp9_7P2w" type="Sequence" element="_9bHIsPW8Ee6PbIfp9_7P2w" name="UpdateProducto" measurementUnit="Himetric">
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_9bHIs_W8Ee6PbIfp9_7P2w" element="_9bHIsPW8Ee6PbIfp9_7P2w" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_9bHItPW8Ee6PbIfp9_7P2w" type="interaction_compartment"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_9bHItfW8Ee6PbIfp9_7P2w" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9bHItvW8Ee6PbIfp9_7P2w" x="793" y="793"/>
+            </children>
+          </contents>
+        </eAnnotations>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_DIBoMPW9Ee6PbIfp9_7P2w" name="ReadProducto">
+        <eAnnotations xmi:id="_DIBoMfW9Ee6PbIfp9_7P2w" source="uml2.diagrams">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_DIBoMvW9Ee6PbIfp9_7P2w" type="Sequence" element="_DIBoMPW9Ee6PbIfp9_7P2w" name="ReadProducto" measurementUnit="Himetric">
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_DIBoM_W9Ee6PbIfp9_7P2w" element="_DIBoMPW9Ee6PbIfp9_7P2w" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_DIBoNPW9Ee6PbIfp9_7P2w" type="interaction_compartment"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_DIBoNfW9Ee6PbIfp9_7P2w" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DIBoNvW9Ee6PbIfp9_7P2w" x="793" y="793"/>
+            </children>
+          </contents>
+        </eAnnotations>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_F0nxUPW9Ee6PbIfp9_7P2w" name="ReadAllProducto">
+        <eAnnotations xmi:id="_F0nxUfW9Ee6PbIfp9_7P2w" source="uml2.diagrams">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_F0nxUvW9Ee6PbIfp9_7P2w" type="Sequence" element="_F0nxUPW9Ee6PbIfp9_7P2w" name="ReadAllProducto" measurementUnit="Himetric">
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_F0nxU_W9Ee6PbIfp9_7P2w" element="_F0nxUPW9Ee6PbIfp9_7P2w" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_F0nxVPW9Ee6PbIfp9_7P2w" type="interaction_compartment"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_F0nxVfW9Ee6PbIfp9_7P2w" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F0nxVvW9Ee6PbIfp9_7P2w" x="793" y="793"/>
+            </children>
+          </contents>
+        </eAnnotations>
+      </ownedBehavior>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_VT2pYNF0Ee61VoHcxFdYVw" name="ProveedorInterfaz">
     <eAnnotations xmi:id="_VT2pYdF0Ee61VoHcxFdYVw" source="uml2.diagrams">
