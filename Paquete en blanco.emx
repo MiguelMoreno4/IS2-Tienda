@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--xtools2_universal_type_manager-->
-<!--Rational Software Architect Designer 9.6.1-->
-<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<!--Rational Software Architect Designer 9.6-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
 <uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_DQIlQNF0Ee61VoHcxFdYVw" name="Interfaz">
   <eAnnotations xmi:id="_DQIlQdF0Ee61VoHcxFdYVw" source="uml2.diagrams"/>
@@ -5861,8 +5861,8 @@
           <end xmi:id="_OVrW-fW-Ee6PbIfp9_7P2w" role="_1h0bwfW9Ee6PbIfp9_7P2w"/>
         </ownedConnector>
         <lifeline xmi:id="_NY9FcPW9Ee6PbIfp9_7P2w" name="Property" represents="_NY9FcfW9Ee6PbIfp9_7P2w" coveredBy="_590tAfW9Ee6PbIfp9_7P2w _59-eA_W9Ee6PbIfp9_7P2w"/>
-        <lifeline xmi:id="_1h0bwPW9Ee6PbIfp9_7P2w" name="Property2" represents="_1h0bwfW9Ee6PbIfp9_7P2w" coveredBy="_590tAvW9Ee6PbIfp9_7P2w _59-eAPW9Ee6PbIfp9_7P2w _59-eAfW9Ee6PbIfp9_7P2w _Bh_CAfW-Ee6PbIfp9_7P2w _Bh_CBvW-Ee6PbIfp9_7P2w _JuPRwfW-Ee6PbIfp9_7P2w _RQgwYfW-Ee6PbIfp9_7P2w _RQgwZvW-Ee6PbIfp9_7P2w _VStagfW-Ee6PbIfp9_7P2w _VStahvW-Ee6PbIfp9_7P2w"/>
-        <lifeline xmi:id="_AU_DYPW-Ee6PbIfp9_7P2w" name="textField: JavaTextField" represents="_AU_DYfW-Ee6PbIfp9_7P2w" coveredBy="_Bh_CAvW-Ee6PbIfp9_7P2w _Bh_CA_W-Ee6PbIfp9_7P2w _Bh_CBPW-Ee6PbIfp9_7P2w"/>
+        <lifeline xmi:id="_1h0bwPW9Ee6PbIfp9_7P2w" name="ActionListener : JavaActionListener" coveredBy="_590tAvW9Ee6PbIfp9_7P2w _59-eAPW9Ee6PbIfp9_7P2w _59-eAfW9Ee6PbIfp9_7P2w _Bh_CAfW-Ee6PbIfp9_7P2w _Bh_CBvW-Ee6PbIfp9_7P2w _JuPRwfW-Ee6PbIfp9_7P2w _RQgwYfW-Ee6PbIfp9_7P2w _RQgwZvW-Ee6PbIfp9_7P2w _VStagfW-Ee6PbIfp9_7P2w _VStahvW-Ee6PbIfp9_7P2w"/>
+        <lifeline xmi:id="_AU_DYPW-Ee6PbIfp9_7P2w" name="jTextField: JavaTextField" coveredBy="_Bh_CAvW-Ee6PbIfp9_7P2w _Bh_CA_W-Ee6PbIfp9_7P2w _Bh_CBPW-Ee6PbIfp9_7P2w"/>
         <lifeline xmi:id="_H22SUPW-Ee6PbIfp9_7P2w" name="tProducto" represents="_H22SUfW-Ee6PbIfp9_7P2w" coveredBy="_JuPRwvW-Ee6PbIfp9_7P2w"/>
         <lifeline xmi:id="_M2QyoPW-Ee6PbIfp9_7P2w" name="controller" represents="_M2QyofW-Ee6PbIfp9_7P2w" coveredBy="_RQgwYvW-Ee6PbIfp9_7P2w _RQgwY_W-Ee6PbIfp9_7P2w _RQgwZPW-Ee6PbIfp9_7P2w _VStagvW-Ee6PbIfp9_7P2w _VStag_W-Ee6PbIfp9_7P2w _VStahPW-Ee6PbIfp9_7P2w"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_590tAfW9Ee6PbIfp9_7P2w" covered="_NY9FcPW9Ee6PbIfp9_7P2w" message="_590tAPW9Ee6PbIfp9_7P2w"/>
