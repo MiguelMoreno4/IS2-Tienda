@@ -245,7 +245,7 @@
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_q1N2ifW6Ee6PbIfp9_7P2w" type="AttributeCompartment"/>
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_q1N2ivW6Ee6PbIfp9_7P2w" type="OperationCompartment"/>
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_q1N2i_W6Ee6PbIfp9_7P2w" visible="false" type="SignalCompartment"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q1N2gvW6Ee6PbIfp9_7P2w" x="1584" y="5016" height="7640"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q1N2gvW6Ee6PbIfp9_7P2w" x="1584" y="5016" height="10285"/>
         </children>
         <element xsi:nil="true"/>
         <edges xmi:type="umlnotation:UMLConnector" xmi:id="_iaRMMNsbEe6IVe5ZEdhwLA" element="_iaOI4NsbEe6IVe5ZEdhwLA" source="_sho6QNsaEe6IVe5ZEdhwLA" target="_hH4-UNsbEe6IVe5ZEdhwLA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -283,6 +283,8 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_q1N2gPW6Ee6PbIfp9_7P2w" name="DAOProducto">
       <ownedOperation xmi:id="_sxIJkPW6Ee6PbIfp9_7P2w" name="setId"/>
+      <ownedOperation xmi:id="_9XLI4PzYEe6LF6Y76qAdPg" name="setActivo"/>
+      <ownedOperation xmi:id="_-inBQPzYEe6LF6Y76qAdPg" name="getActivo"/>
       <ownedOperation xmi:id="_szZacPW6Ee6PbIfp9_7P2w" name="getId"/>
       <ownedOperation xmi:id="_s4vNcPW6Ee6PbIfp9_7P2w" name="setNombre"/>
       <ownedOperation xmi:id="_tWan8PW6Ee6PbIfp9_7P2w" name="getNombre"/>
