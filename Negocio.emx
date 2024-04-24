@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--xtools2_universal_type_manager-->
-<!--Rational Software Architect Designer 9.6-->
-<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<!--Rational Software Architect Designer 9.6.1-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
 <uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_giIrINpFEe6Jn54p2h2o6g" name="Negocio">
   <eAnnotations xmi:id="_giIrIdpFEe6Jn54p2h2o6g" source="uml2.diagrams"/>
@@ -359,6 +359,7 @@
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_eBGroPzdEe6LF6Y76qAdPg" name="Operation1"/>
+      <ownedOperation xmi:id="_8SVYwAJfEe-jeKI6leyLBg" name="productoleido"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_p8wfgNsWEe6IVe5ZEdhwLA" supplier="_Vfa4oNsWEe6IVe5ZEdhwLA" client="_IdTGINsWEe6IVe5ZEdhwLA"/>
     <packagedElement xmi:type="uml:Realization" xmi:id="_rAPVwNsWEe6IVe5ZEdhwLA" supplier="_IdTGINsWEe6IVe5ZEdhwLA" client="_GYeusNsWEe6IVe5ZEdhwLA"/>
