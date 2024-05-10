@@ -144,7 +144,7 @@
       <ownedOperation xmi:id="_qbDrQA4-Ee-qCNz9TvfnTw" name="isActivo"/>
       <ownedOperation xmi:id="_rpt2wA4-Ee-qCNz9TvfnTw" name="setActivo"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_-t-gwN-tEe6ex61i1nwoUA" name="DAOPedido">
+    <packagedElement xmi:type="uml:Interface" xmi:id="_-t-gwN-tEe6ex61i1nwoUA" name="DAOPedido" clientDependency="_575pUA5GEe-qCNz9TvfnTw">
       <ownedOperation xmi:id="_JQ1bgN-uEe6ex61i1nwoUA" name="alta"/>
       <ownedOperation xmi:id="_ADUpoA4-Ee-qCNz9TvfnTw" name="update"/>
       <ownedOperation xmi:id="_KuN_gN-uEe6ex61i1nwoUA" name="read"/>
@@ -1133,6 +1133,7 @@
       <operation href="Negocio.emx#_6EcKAAvEEe-L3_zM0AdAlw?Negocio/PedidoNegocio/TPedido/pedidoLeido?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_spjGoA4_Ee-qCNz9TvfnTw" supplier="_WZm5sA4_Ee-qCNz9TvfnTw" client="_e6Uh4N-tEe6ex61i1nwoUA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_575pUA5GEe-qCNz9TvfnTw" supplier="_v3b2YN_FEe62HLHMaYMT8Q" client="_-t-gwN-tEe6ex61i1nwoUA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_UugV4NsSEe6IVe5ZEdhwLA" name="ProductoIntegracion">
     <eAnnotations xmi:id="_UugV4dsSEe6IVe5ZEdhwLA" source="uml2.diagrams">
@@ -3074,7 +3075,7 @@
       </contents>
     </eAnnotations>
     <packagedElement xmi:type="uml:Class" xmi:id="_VTkvQN-bEe6Q7LlXBk3NsQ" name="DAOTiendImp" clientDependency="_u10acN-bEe6Q7LlXBk3NsQ _vY-x4N-bEe6Q7LlXBk3NsQ _JJti0ObgEe6COp8z9ZALJQ _CrS60PW7Ee6PbIfp9_7P2w _xLrYkA5AEe-qCNz9TvfnTw"/>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_ZTSGEN-bEe6Q7LlXBk3NsQ" name="DAOTienda" clientDependency="_keS4QA5GEe-qCNz9TvfnTw">
+    <packagedElement xmi:type="uml:Interface" xmi:id="_ZTSGEN-bEe6Q7LlXBk3NsQ" name="DAOTienda" clientDependency="_keS4QA5GEe-qCNz9TvfnTw _tAVA8A7ZEe-irJ244UPBag _agfMEA7aEe-irJ244UPBag">
       <ownedOperation xmi:id="_kyvzAN-bEe6Q7LlXBk3NsQ" name="create">
         <ownedParameter xmi:id="_Q8sjsN-dEe6Q7LlXBk3NsQ" name="Parameter1" direction="return"/>
         <ownedParameter xmi:id="_XmxPAN-dEe6Q7LlXBk3NsQ" name="tienda" type="_aZJh8N-bEe6Q7LlXBk3NsQ"/>
@@ -3170,6 +3171,12 @@
     <packagedElement xmi:type="uml:Realization" xmi:id="_CrS60PW7Ee6PbIfp9_7P2w" supplier="_ZTSGEN-bEe6Q7LlXBk3NsQ" client="_VTkvQN-bEe6Q7LlXBk3NsQ"/>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_xLrYkA5AEe-qCNz9TvfnTw" supplier="_WZm5sA4_Ee-qCNz9TvfnTw" client="_VTkvQN-bEe6Q7LlXBk3NsQ"/>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_keS4QA5GEe-qCNz9TvfnTw" supplier="_aZJh8N-bEe6Q7LlXBk3NsQ" client="_ZTSGEN-bEe6Q7LlXBk3NsQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_tAVA8A7ZEe-irJ244UPBag" client="_ZTSGEN-bEe6Q7LlXBk3NsQ">
+      <supplier xmi:type="uml:Class" href="Negocio.emx#_zPFCEObgEe6COp8z9ZALJQ?Negocio/TiendaNegocio/TTienda?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_agfMEA7aEe-irJ244UPBag" client="_ZTSGEN-bEe6Q7LlXBk3NsQ">
+      <supplier xmi:type="uml:Class" href="Negocio.emx#_zPFCEObgEe6COp8z9ZALJQ?Negocio/TiendaNegocio/TTienda?"/>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_aDfdkNsSEe6IVe5ZEdhwLA" name="TrabajadorIntegracion">
     <eAnnotations xmi:id="_aDgEoNsSEe6IVe5ZEdhwLA" source="uml2.diagrams">
@@ -3261,7 +3268,7 @@
     <packagedElement xmi:type="uml:Dependency" xmi:id="_ycGRoOVOEe6Ed5uF4rxOvg" client="_e48bEOVOEe6Ed5uF4rxOvg">
       <supplier xmi:type="uml:Class" href="Negocio.emx#_6iRkAOVNEe6Ed5uF4rxOvg?Negocio/TrabajadorNegocio/TTrabajador?"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_j5T-4PW7Ee6PbIfp9_7P2w" name="DAOTrabajador">
+    <packagedElement xmi:type="uml:Interface" xmi:id="_j5T-4PW7Ee6PbIfp9_7P2w" name="DAOTrabajador" clientDependency="_qj_r8A7aEe-irJ244UPBag">
       <ownedOperation xmi:id="_nSYzgPW7Ee6PbIfp9_7P2w" name="alta"/>
       <ownedOperation xmi:id="_nU58APW7Ee6PbIfp9_7P2w" name="baja"/>
       <ownedOperation xmi:id="_nmc_APW7Ee6PbIfp9_7P2w" name="update"/>
@@ -3272,6 +3279,9 @@
     <packagedElement xmi:type="uml:Realization" xmi:id="_j5dv6_W7Ee6PbIfp9_7P2w" supplier="_j5T-4PW7Ee6PbIfp9_7P2w" client="_e48bEOVOEe6Ed5uF4rxOvg"/>
     <packagedElement xmi:type="uml:Realization" xmi:id="_3JAG4PW7Ee6PbIfp9_7P2w" supplier="_j5T-4PW7Ee6PbIfp9_7P2w" client="_e48bEOVOEe6Ed5uF4rxOvg"/>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_r5GPMA5BEe-qCNz9TvfnTw" supplier="_WZm5sA4_Ee-qCNz9TvfnTw" client="_e48bEOVOEe6Ed5uF4rxOvg"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_qj_r8A7aEe-irJ244UPBag" client="_j5T-4PW7Ee6PbIfp9_7P2w">
+      <supplier xmi:type="uml:Class" href="Negocio.emx#_6iRkAOVNEe6Ed5uF4rxOvg?Negocio/TrabajadorNegocio/TTrabajador?"/>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_8v6W8PW5Ee6PbIfp9_7P2w" name="FactoriaIntegracion">
     <eAnnotations xmi:id="_8w_8EPW5Ee6PbIfp9_7P2w" source="uml2.diagrams">
@@ -3458,7 +3468,7 @@
         </edges>
       </contents>
     </eAnnotations>
-    <packagedElement xmi:type="uml:Class" xmi:id="_BvZIsPW6Ee6PbIfp9_7P2w" name="FactoriaIntegacion" clientDependency="_fPPR4PW6Ee6PbIfp9_7P2w _-WYwEPW6Ee6PbIfp9_7P2w _FC4dQPW7Ee6PbIfp9_7P2w _4jYaMPW7Ee6PbIfp9_7P2w _5khuIPW7Ee6PbIfp9_7P2w _7OcSQPW7Ee6PbIfp9_7P2w _JL3o4A5GEe-qCNz9TvfnTw _OvC9kA5GEe-qCNz9TvfnTw _WXZPAA5GEe-qCNz9TvfnTw">
+    <packagedElement xmi:type="uml:Class" xmi:id="_BvZIsPW6Ee6PbIfp9_7P2w" name="FactoriaIntegacion" clientDependency="_fPPR4PW6Ee6PbIfp9_7P2w _-WYwEPW6Ee6PbIfp9_7P2w _FC4dQPW7Ee6PbIfp9_7P2w _4jYaMPW7Ee6PbIfp9_7P2w _5khuIPW7Ee6PbIfp9_7P2w _7OcSQPW7Ee6PbIfp9_7P2w _JL3o4A5GEe-qCNz9TvfnTw _OvC9kA5GEe-qCNz9TvfnTw _WXZPAA5GEe-qCNz9TvfnTw _eIhfMA7ZEe-irJ244UPBag _euQCcA7ZEe-irJ244UPBag _nsP4MA7ZEe-irJ244UPBag _bmDF8A7aEe-irJ244UPBag _zXuLYA7aEe-irJ244UPBag _zpi7MA7aEe-irJ244UPBag">
       <ownedAttribute xmi:id="_IUHZ8PW6Ee6PbIfp9_7P2w" name="instance" visibility="private" isStatic="true" type="_BvZIsPW6Ee6PbIfp9_7P2w"/>
       <ownedOperation xmi:id="_Ov1gMPW6Ee6PbIfp9_7P2w" name="generaDAOProducto" isAbstract="true"/>
       <ownedOperation xmi:id="_OycIQPW6Ee6PbIfp9_7P2w" name="generaDAOProveedor" isAbstract="true"/>
@@ -3491,6 +3501,12 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_OvC9kA5GEe-qCNz9TvfnTw" supplier="_q1N2gPW6Ee6PbIfp9_7P2w" client="_BvZIsPW6Ee6PbIfp9_7P2w"/>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_WXZPAA5GEe-qCNz9TvfnTw" supplier="_ZTSGEN-bEe6Q7LlXBk3NsQ" client="_BvZIsPW6Ee6PbIfp9_7P2w"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_eIhfMA7ZEe-irJ244UPBag" supplier="_-t-gwN-tEe6ex61i1nwoUA" client="_BvZIsPW6Ee6PbIfp9_7P2w"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_euQCcA7ZEe-irJ244UPBag" supplier="_j5T-4PW7Ee6PbIfp9_7P2w" client="_BvZIsPW6Ee6PbIfp9_7P2w"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_nsP4MA7ZEe-irJ244UPBag" supplier="_ZTSGEN-bEe6Q7LlXBk3NsQ" client="_BvZIsPW6Ee6PbIfp9_7P2w"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_bmDF8A7aEe-irJ244UPBag" supplier="_ZTSGEN-bEe6Q7LlXBk3NsQ" client="_BvZIsPW6Ee6PbIfp9_7P2w"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_zXuLYA7aEe-irJ244UPBag" supplier="_j5T-4PW7Ee6PbIfp9_7P2w" client="_BvZIsPW6Ee6PbIfp9_7P2w"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_zpi7MA7aEe-irJ244UPBag" supplier="_ZTSGEN-bEe6Q7LlXBk3NsQ" client="_BvZIsPW6Ee6PbIfp9_7P2w"/>
   </packagedElement>
   <profileApplication xmi:id="_lGb8xdpFEe6Jn54p2h2o6g">
     <eAnnotations xmi:id="_lGb8xtpFEe6Jn54p2h2o6g" source="http://www.eclipse.org/uml2/2.0.0/UML">
